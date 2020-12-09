@@ -578,21 +578,22 @@ background-color:#38312b;
   box-sizing: border-box;
 }
 .container-video{
-  padding: 0 0 0 440px;
   display: flex;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 .video-file{
-  object-fit: cover;
-  width: 1920px;
-  height: 707;
+  width: 107%;
+  height: 707px;
 }
 .video-wrp{
   box-sizing: border-box;
   display: flex;
   position: absolute;
+  top: 210px;
+  left: 514px;
   flex-direction: column;
   align-items: center;
 }
@@ -622,21 +623,17 @@ background-color:#38312b;
   line-height: 28px;
   width: 500px;
 }
-
-.iphone {
+.iphone{
   background-color: rgba(251, 250, 248, 1);
-  background-image: url("../img/iphone_in_hand.png");
-  background-repeat: no-repeat;
-  background-position: bottom left 423px;
-  padding: 50px 0 150px 400px;
-
 }
-
-.container-phone {
+.container-phone{
   padding:70px 400px 0;
+  display: flex;
 }
-
-.mobile {
+.mobile-block{
+  padding: 80px 0 0 20px;
+}
+.mobile{
   font-family: 'Raleway';
   font-size: 30px;
   font-weight: 600;
@@ -644,7 +641,6 @@ background-color:#38312b;
   padding: 15px 0 5px 17px;
   animation: translating 10s linear 3s infinite;
 }
-
 @keyframes translating {
   0%  { transform: translate(0, 0);}
   25% { transform: translate(240px, 0);}
@@ -1106,33 +1102,23 @@ margin-left: auto;
   }
 
   .marketing {
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    padding: 0;
-    
+    padding: 20px 56px 0;
   } 
 
-  .list-desing{
-    width: 40%;
-    margin: 0 0 20px 0;
-  }
   .container_realization {
-    padding:20px;
+    padding:0;
   }
 
   .ideas-text {
     width: 78%;
   }
  .container_wordpress {
-  padding: 30px 15px;
+  padding: 30px 49px;
  }
   
- .purchase_now {
-  margin: 0 auto;
- }
-
  .projects {
   padding: 0;
  }
@@ -1143,10 +1129,7 @@ margin-left: auto;
  }
 
  .menu-list {
-   display: flex;
-   flex-wrap: wrap;
-   width: 565px;
-   padding: 0;
+  width: 620px;
  }
 
 .list-picture {
@@ -1160,32 +1143,10 @@ margin-left: auto;
 .list_of_cards {
   margin: 20px 30px 60px 3px
 }
-.picture {
-  margin: 0 auto;
-}
-
-.load_more {
-  margin: 0 0 0 225px;
-}
-
-.container-video {
-  padding: 0 837px 0 0;
-}
-.video-file {
-  width: 600px;
-  height: 500px;
-}
-
-.iphone {
-  background-size: 42%;
-  background-position: bottom left 15px;
-  padding: 0px 0 1px 0px;
-}
 
 .container-phone {
-  padding: 6px 0 0 18px;
+  padding: 33px 0 0 20px;
 }
-
 .mobile {
   animation: none;
   padding: 0;
@@ -1193,12 +1154,10 @@ margin-left: auto;
 }
 .mobile-txt {
   width: 450px;
-  padding: 0 0 113px 0;
-  margin: 0;
 }
 
 .mobile-txt-list {
-  padding: 0 0 0 255px;
+  padding: 0;
 }
 
 .container-statistics {
@@ -1221,14 +1180,6 @@ margin-left: auto;
   padding: 0;
 }
 
-.title-recent {
-  margin: 0;
-}
-
-.txt-recent{
-  width: 0;
-  margin: 0; 
-}
 .list-recent {
   padding: 20px 0 0 0;
 }
@@ -1251,7 +1202,7 @@ margin-left: auto;
 
 .container-logos {
   padding: 50px 0 24px 0px;
-  width: 530px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -1262,19 +1213,10 @@ margin-left: auto;
 }
 
 .container-footer {
-  padding: 30px 12px 20px;
-}
-
-.button-read-footer {
-  margin: 30px 0 0 0;
-}
-
-.button-read-footer::after {
-  right: -20px;
+  padding: 30px 125px 20px;
 }
 
 .container-info {
   padding: 25px 80px;
 }
-
 }
