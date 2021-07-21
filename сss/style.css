@@ -602,17 +602,20 @@ display: block;
 background-color:#38312b;
 }
 .video{
-  width: 1440px;
+  
   box-sizing: border-box;
+
 }
+
 .container-video{
-  padding: 0 0 0 440px;
+
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 .video-file{
+
   object-fit: cover;
   width: 1920px;
   height: 707px;
@@ -652,6 +655,7 @@ background-color:#38312b;
 }
 
 .iphone {
+
   background-color: rgba(251, 250, 248, 1);
   background-image: url("../img/iphone_in_hand.png");
   background-repeat: no-repeat;
